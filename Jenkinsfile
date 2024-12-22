@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                // replace git URL below with your git repo url
-                git branch: 'main', url: 'https://github.com/mecbob/terraform-test.git'
+                git branch: 'master', url: 'https://github.com/Yvette-Achidi/Terraform-test.git'
             }
         }
         stage('Initialize Terraform') {
